@@ -60,3 +60,44 @@ Options:
 .help     Print this help message
 .load     Load JS from a file into the REPL session
 .save     Save all evaluated commands in this REPL session to a file
+
+
+GLOBAL THIS: Es una variable global en toda nuestra aplicación, que vamos a poder acceder no importa donde estemos. Siempre acceso a esta variable
+
+
+IMPORTAR MODULOS NATIVOS DE NODE.JS = UTILIZO REQUIRE
+
+const fs = require('fs'); fs (file system): Para trabajar con archivos en el sistema de archivos del sistema operativo.
+const http = require('http'); http: Para crear un servidor HTTP y realizar solicitudes HTTP.
+const path = require('path'); path: Para trabajar con rutas de archivos y directorios.
+const EventEmitter = require('events'); events: Para trabajar con eventos y emitir y escuchar eventos personalizados.
+
+
+const os = require('node:os')
+//ya podemos hacer una aplicación pequeña con Node
+console.log('Información del sistema operativo: ')
+console.log('__________________')
+
+console.log('Nombre del sistema operativo', os.platform())
+console.log('Versión del sistema operativo', os.release())
+console.log('ARquitectura', os.arch())
+console.log('CPUs, os.cpus()') //<- Vamos a poder escalar procesos en Node.js
+console.log('Memoria libre', os.freemem() / 1024 / 1024)
+console.log('Memoria total', os.totalmem() / 1024 / 1024)
+console.log('uptime', os.uptime() / 60 / 60)
+
+os.platform(): Esta función devuelve una cadena que identifica la plataforma del sistema operativo en la que se está ejecutando Node.js. Devuelve valores como 'win32' para Windows, 'darwin' para macOS y 'linux' para sistemas operativos basados en Linux.
+
+os.release(): Devuelve una cadena que representa la versión del sistema operativo en el que se está ejecutando Node.js.
+
+os.arch(): Devuelve una cadena que representa la arquitectura de la CPU del sistema. Puede devolver valores como 'x64', 'arm', 'arm64', etc.
+
+os.cpus(): Esta función devuelve un arreglo de objetos que representa la información sobre cada CPU disponible en el sistema. Cada objeto proporciona información como la velocidad, modelo y arquitectura de la CPU.
+
+os.freemem(): Devuelve la cantidad de memoria libre del sistema en bytes.
+
+os.totalmem(): Devuelve la cantidad total de memoria del sistema en bytes.
+
+os.uptime(): Cuanto lleva tu ordenar encendido
+
+
