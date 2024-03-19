@@ -60,3 +60,6 @@ Options:
 .help     Print this help message
 .load     Load JS from a file into the REPL session
 .save     Save all evaluated commands in this REPL session to a file
+
+
+GLOBAL THIS: Es una variable global en toda nuestra aplicación, que vamos a poder acceder no importa donde estemos. Siempre acceso a esta variable
