@@ -1,0 +1,17 @@
+{
+  "name": "tercer-proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cohere-ai": "7.9.0",
+    "ora": "8.0.1"
+  }
+}
