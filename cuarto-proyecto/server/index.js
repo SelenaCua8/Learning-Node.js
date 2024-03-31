@@ -12,8 +12,16 @@ const io = new Server(server)
 
 
 //conection y ahorra hs
-io.on('connection', () =>{
+io.on('connection', (socket) => {
     console.log('a user has connected!')
+
+    socket.on('disconnect', () => {
+        console.log('an user has disconnected')
+    })
+
+    socket.on('chat message', (msg) => {
+        io.emit('message', msg); // Aquí se emite el mensaje a todos los clientes conectados
+    })
 })
 app.use(logger('dev'))
 
