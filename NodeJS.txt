@@ -1,0 +1,99 @@
+¿Qué es Node.JS?
+Node JS, es una herramienta basada en JavaScript diseñada para el desarrollo back end, diseño web y la implementación deprocesos.
+Podría decirse que esta es la respuesta más corta disponible.
+
+¿Por qué las personas deberían utilizar Node JS?
+Es rápido, asincrónico, proporciona un único, generalizado lenguaje de programación y tipo de dato, etc.
+En general, Node JS, es simplemente una de las mejores herramientas disponible en el mercado actual, cuando se trata del
+  desarrollo del lado del servidor basado en JavaScript.
+
+    ¿Cuál es la diferencia entre desarrollo front end y back end?
+    Los desarrolladores front end, se preocupan por el lado del cliente (Usuario) de la página web. Ellos trabajan, desarrollan y 
+    mantienen todo lo que el cliente puede ver, en otras palabras, son responsables del aspecto (Diseño) y funcionalidad 
+      (Como botones, banners, etc) de la página web. En cambio, los desarrolladores back end son los responsables de los procesos 
+      que ocurren detrás de escena, cosas que el cliente no puede ver. 
+    También son los encargados de la funcionalidad del sitio, solo que de una perspectiva mucho más amplia.
+
+  ¿Qué son los "stubs"?
+  Stubs, son ciertas funciones que copian el comportamiento de módulos específicos. Son utilizados usualmente en casos de prueba
+  ya que pueden brindar las respuestas necesarias para resolver algunos problemas que pueden surgir dentro de los módulos.
+
+  ¿Qué es Express JS?
+    Express JS, es una estructura ligera, creada para ayuda a Node a lidiar con algunas tareas tediosas del desarrollo web.
+    Es una gran ayuda para el desarrollo de tanto páginas web como aplicaciones móviles.
+
+     ¿Por qué son importantes las habilidades blandas al utilizar Node.js?
+Como los desarrolladores de Node.js deben trabajar con muchos clientes, requieren varias habilidades blandas clave. 
+    Algunas de las principales
+    habilidades blandas presentes en las ofertas de empleo para desarrolladores de software son la comunicación, el
+      trabajo en equipo, la resolución de problemas y la planificación.
+
+Estas habilidades blandas fundamentales pueden ayudar a los desarrolladores a generar confianza en los clientes además
+        de mejorar la relación empresa-cliente.
+
+Sin embargo, la importancia de las habilidades blandas para los desarrolladores de Node.js no termina aquí: también tienen 
+          que trabajar con un equipo de desarrollo y partes interesadas no técnicas para entregar aplicaciones de software 
+            de alta calidad.
+
+
+
+¿Podrías mencionar tres ventajas de Node.js?
+Node.js tiene varias ventajas fundamentales, que pueden explicar por qué el 47,1% de 
+              losdesarrolladores lo eligieron como su framework preferido en 2022. No 
+                solo ayuda a los ingenieros a crear software y programas de red escalables,
+                  sino que también tiene las siguientes cualidades:
+
+Entorno de ejecución rápido
+
+Funciones asíncronas
+
+Garantiza que los desarrolladores no tengan que esperar a que las operaciones no JavaScript finalicen
+  antes de ejecutar las operaciones JavaScript
+
+Fácil de aprender
+
+Utiliza caché para reducir el tiempo de carga
+
+solo requiere JavaScript para gestionar el desarrollo front-end y back-end.
+
+Apoyo de una gran comunidad de desarrolladores de Node.js
+
+ ¿Podrías nombrar algunas bibliotecas que los desarrolladores utilizan frecuentemente con Node.js?
+Hay algunas bibliotecas que los desarrolladores utilizan con frecuencia con Node.js, así que busca un
+   candidato que pueda nombrar un par y explicar qué son.
+
+Estas son dos bibliotecas que los desarrolladores de Node.js utilizan con frecuencia:
+
+Express.js: Este framework flexible de aplicaciones web para Node.js ofrece varias características que
+     soportan el desarrollo de aplicaciones móviles y web.
+
+Mongoose: Este framework de aplicaciones web para Node.js permite a los desarrolladores conectar sus aplicaciones
+       a una base de datos
+
+Parser, Ethers.js y Request son otros ejemplos de bibliotecas que los desarrolladores utilizan con Node.js. Vale
+  la pena que consideres para tu empresa a los candidatos que puedan hablar sobre estas características.
+
+¿Hay diferencias entre Node.js y Angular? Por favor, da ejemplos.
+Los candidatos deben saber que existen varias diferencias entre Node.js y Angular. Para demostrar su conocimiento,
+    podrían mencionar los siguientes ejemplos en su respuesta:
+
+Node.js es un entorno de ejecución que permite a los desarrolladores ejecutar código JavaScript en el lado del servidor,
+    mientras que Angular es un marco de desarrollo para aplicaciones del lado del cliente.
+
+Node.js se utiliza normalmente para el desarrollo back-end, mientras que Angular se utiliza para el desarrollo front-end.
+
+Node.js está escrito en lenguajes de programación C y C++, mientras que Angular está escrito en TypeScript.
+
+Node.js es ideal para crear aplicaciones de red escalables del lado del servidor, mientras que Angular es mejor para 
+    aplicaciones de una sola página del lado del cliente.
+
+¿Entiendes qué son los módulos en Node.js? Por favor, explica qué hacen.
+Incluso los ingenieros junior de Node.js deberían entender qué módulos hay en Node.js. Busca algunos
+      de los siguientes detalles en sus respuestas:
+
+Los módulos de Node.js son similares a las bibliotecas de JavaScript.
+
+Los desarrolladores pueden incluirlos en una aplicación Node.js si desean utilizar funciones específicas
+
+Los programadores deben utilizar la función require() y añadir el nombre del módulo entre paréntesis para 
+  incluirlo en la aplicación.
