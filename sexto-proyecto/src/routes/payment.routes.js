@@ -1,12 +1,15 @@
-import { Router} from 'express'
-import {createOrder} from '../controllers/payment.controller.js'
+import { Router } from "express";
+import {
+  createOrder,
+  receiveWebhook,
+} from "../controllers/payment.controller.js";
 
-const router = Router()
+const router = Router();
 
-router.get('/create-order', createOrder
-)
-router.get('/succes', (req, res) => res.send('succes'))
+router.post("/create-order", createOrder);
 
-router.get('/webhooks', (req, res) => res.send('webhooks'))
+router.post("/webhook", receiveWebhook);
 
-export default router
+router.get("/success", (req, res) => res.send("Success"));
+
+export default router;
