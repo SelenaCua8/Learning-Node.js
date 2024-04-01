@@ -1,11 +1,11 @@
 import { Router} from 'express'
+import {createOrder} from '../controllers/payment.controller.js'
 
 const router = Router()
 
-router.get('/create-order', (req, res) => 
-    res.send('creating order')
+router.get('/create-order', createOrder
 )
-router.get('/succers', (req, res) => res.send('succers'))
+router.get('/succes', (req, res) => res.send('succes'))
 
 router.get('/webhooks', (req, res) => res.send('webhooks'))
 
